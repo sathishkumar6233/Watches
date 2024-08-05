@@ -1,0 +1,246 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+:root {
+    --primary-color: #ffb667;
+    --text-dark: #2d2b2c;
+    --text-light: #767268;
+    --white: #ffffff;
+    --max-width: 1200px;
+  }
+  .btn {
+    max-width: fit-content;
+    padding: 1rem 1rem;
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    font-weight: 00;
+    color: var(--white);
+    background-color: var(--text-dark);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+
+  
+  a {
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  html,
+  body {
+    scroll-behavior: smooth;
+  }
+  
+.slidebar-container{
+    display: flex;
+    flex-direction: row;
+}
+.slidebar{
+    display: none; 
+    transition: left 0.5s ease-in-out;
+}
+.slidebar h2{
+    text-align: center;
+    padding-bottom: 30px;
+}
+.slidebar ul{
+    list-style-type: none;
+    padding: 0;
+}
+.slidebar li{
+    padding: 10px;
+    padding-left: 20px;
+}
+
+.slidebar a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.content{
+    padding: 45px;
+}
+.slidebar-container .slidebar-open .slider{
+    width: 0;
+    overflow: hidden;
+}
+.slidebar-open{
+    padding-top: 50px;
+    display: block;
+    width: 350px;
+    height: 100vh!important;
+    
+    background-color:#000000;
+    /* background-color:blue; */
+    color: white;
+    transition:left all 0.5s;
+}
+
+#toggleButton{
+    padding: 4px 10px; 
+    font-size: 20px;
+    border: none;
+    background-color: transparent;
+    color: rgb(235, 175, 12);
+    cursor: pointer;
+    background-color: #ffffff;
+}
+
+
+
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#000000;
+    text-decoration: none;
+    row-gap: 20px!important;
+}
+.slidebar ul li a.active {
+    color: #dcca0e; 
+    transition: all 0.5s;
+}
+
+nav  ul .button{
+    width: 20%;
+    height: auto;
+}
+nav ul .search{
+    width: 30%;
+}
+
+nav ul .time{
+    width: 100%;
+    padding: 5px;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-left: 15px!important;
+}
+
+/* 
+.arrival__grid {
+    display: grid;
+    margin-top: 4rem;
+    gap: 1rem;
+  }
+  
+  .arrival__card {
+    position: relative;
+    isolation: isolate;
+    height: fit-content;
+    padding: 2rem 5rem;
+    text-align: center;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+  }
+  
+  .arrival__card:hover {
+    background-color: var(--primary-color);
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
+  }
+  
+  .arrival__card span {
+    position: absolute;
+    padding: 5px 1rem;
+    top: 1rem;
+    right: 1rem;
+    padding: 5px 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--primary-color);
+  }
+  
+  .arrival__card img {
+    width: fit-content;
+    height: 100%;
+    max-height: 160px;
+    margin-inline: auto;
+    margin-bottom: 1rem;
+  }
+  
+  .arrival__card h4 {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .arrival__card p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--text-dark);
+  }
+  
+  .arrival__card .read__more {
+    margin-bottom: 1rem;
+    padding: calc(1rem - 4px) calc(2rem - 4px);
+    display: none;
+    background-color: transparent;
+    border: 2px solid var(--white);
+  }
+  
+  .arrival__card:hover .read__more {
+    display: block;
+    margin-inline: auto;
+  } */ 
+/* table{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+} */
+/* tbody{
+  width: 100%;
+  height: auto;
+  display: flex; */
+  /* justify-content: center; */
+  /* align-items: center;
+  flex-direction: column;
+  gap: 20px;
+/* } */
+td img{
+  width: 10%;
+}  
+
+
+
+
+/* nav end */
+
+/* main content */
+
+/* #home{
+    width: 100%;
+    height: 100vh;
+}
+#about{
+    width: 100%;
+    height: 100vh;
+}
+#service{
+    width: 100%;
+    height: 100vh;
+}
+#contact{
+    width: 100%;
+    height: 100vh;
+} */
+
+/* main content end */
